@@ -1,0 +1,39 @@
+version : '3'
+services: 
+    compare-it-front:
+      image: registry.gitlab.com/compare-it/compare-it-front
+      ports: 
+        - '80:80'
+      depends_on:
+        - compare-it-back
+      restart: always
+
+    compare-it-back :
+      image: registry.gitlab.com/compare-it/compare-it-back
+      ports:
+        - '8080:8080'
+      links:
+        - compare-it-db
+      depends_on:
+        - "compare-it-db"
+      environment:
+        CLIENT_URL: http://192.168.99.100:8081
+        DATABASE_PORT: 3306
+        DATABASE_XPORT : 33060
+        DATABASE_HOST: compare-it-db
+        DATABASE_USERNAME: root
+        DATABASE_PASSWORD: rootP@ssw0rd
+        DATABASE_NAME: compareIt
+      restart: always
+
+    compare-it-db :
+      image: mysql:8
+      environment:
+          MYSQL_DATABASE: 'compareIt'
+          MYSQL_USER: 'CITUSR'
+          MYSQL_PASSWORD: 'CITUSR123456'
+          MYSQL_ROOT_PASSWORD: 'rootP@ssw0rd'
+      ports:
+          - '3306:3306'
+          - '33060:33060'
+      restart: always
