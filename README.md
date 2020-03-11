@@ -32,7 +32,7 @@ liste des fichiers a customiser:
 une fois cela fait
 * `docker-compose up -d` 
 
-### A ne réaliser qu'en vue d'une configuration HTTPS SSL
+#A ne réaliser qu'en vue d'une configuration HTTPS SSL
 ## Configuration DNS
 
 L'alias DNS a été pris en charge par cloudflare
