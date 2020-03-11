@@ -24,20 +24,24 @@ liste des fichiers a customiser:
 * nginx.conf (configuration du reverse proxy)
 * environment.json (indique au Front les urls des services)
 
+`vim nginx.conf`
+`vim docker-compose.yml`
+`vim environment/environment.json`
+
 Lancement de ComparIT
 `cd comparIt_docker/`
 `docker-compose up -d`
 
-#A ne réaliser qu'en vue d'une configuration HTTPS SSL
+# A ne réaliser qu'en vue d'une configuration HTTPS SSL
 ## Configuration DNS
 
 L'alias DNS a été pris en charge par cloudflare
 
-la difficulté a été de recuperer le certificat letsencruypt relatif
+recuperer le certificat letsencruypt relatif
 
 il faut installer certbot et le plugin pip cloudflare 
 
->msn@vml2:~$ cat certbot_generator.sh 
+>msn@vml2:~$ cat conf_https/certbot_generator.sh 
 >certbot certonly \
 >  --dns-cloudflare \
 >  --dns-cloudflare-credentials ~/.secrets/certbot/cloudflare.ini \
@@ -47,4 +51,6 @@ il faut installer certbot et le plugin pip cloudflare
 >  -d analytics.comparit.fr
 
 les cles générées peuvent etre utilisées dans la configuration nginx pour assurer la securisation SSL
+
+le fichier nginx.conf.ssl peut etre customisé et remplacer le fichier nginx.conf
 
