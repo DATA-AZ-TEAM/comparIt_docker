@@ -29,7 +29,7 @@ services:
         timeout: 10s
         retries: 15
     volumes:
-      - '~/docker/environment:/usr/share/nginx/html/assets/environments'
+      - '~/comparIt_docker/environment:/usr/share/nginx/html/assets/environments'
 
   compare-it-back :
     image: comparit/compare-it-back:master
@@ -88,7 +88,7 @@ services:
       MATOMO_USERNAME : User
       MATOMO_PASSWORD : P@ssw0rd
       MATOMO_WEBSITE_NAME  : comparIt
-      MATOMO_WEBSITE_HOST : http://compit.francecentral.cloudapp.azure.com
+      MATOMO_WEBSITE_HOST : http://compit2.francecentral.cloudapp.azure.com
     links:
       - compare-it-db
     depends_on:

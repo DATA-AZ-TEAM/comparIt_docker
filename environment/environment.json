@@ -2,8 +2,8 @@
   "name": "production",
   "production": true,
   "settings": {
-    "apiUrl": "http://compit.francecentral.cloudapp.azure.com/api",
-    "analyticsUrl": "http://compit.francecentral.cloudapp.azure.com/analytics/",
+    "apiUrl": "http://compit2.francecentral.cloudapp.azure.com/api",
+    "analyticsUrl": "http://compit2.francecentral.cloudapp.azure.com/analytics/",
     "analyticsId": 1,
     "SiteTitle": "DEMO-it"
   }
