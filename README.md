@@ -13,7 +13,7 @@ Tous les flux transitent par NGINX
 Do you want to continue? [Y/n] Y
 
 Ajouter votre utilisateur au groupe docker
-`sudo vim /etc/group`
+`sudo usermod -aG docker $USER` ou `sudo vim /etc/group`
 
 redemarrer pour que docker demarre et que vous disposiez des bon droits docker a la reconnexion
 `sudo reboot`
