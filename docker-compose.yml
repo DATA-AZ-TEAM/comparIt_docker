@@ -1,39 +1,103 @@
-version : '3'
-services: 
-    compare-it-front:
-      image: registry.gitlab.com/compare-it/compare-it-front
-      ports: 
-        - '80:80'
-      depends_on:
-        - compare-it-back
-      restart: always
+version: '2.1'
+services:
+  nginx: 
+    image: nginx:latest
+    container_name: reverse-proxy
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/error.log:/var/log/nginx/error.log
+      - ./nginx/cache/:/etc/nginx/cache
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      compare-it-front:
+        condition: service_healthy
 
-    compare-it-back :
-      image: registry.gitlab.com/compare-it/compare-it-back
-      ports:
-        - '8080:8080'
-      links:
-        - compare-it-db
-      depends_on:
-        - "compare-it-db"
-      environment:
-        CLIENT_URL: http://192.168.99.100:8081
-        DATABASE_PORT: 3306
-        DATABASE_XPORT : 33060
-        DATABASE_HOST: compare-it-db
-        DATABASE_USERNAME: root
-        DATABASE_PASSWORD: rootP@ssw0rd
-        DATABASE_NAME: compareIt
-      restart: always
+  compare-it-front:
+    image: comparit/compare-it-front:master
+    container_name: compare-it-front
+    ports:
+      - '80'
+    depends_on:
+      compare-it-back:
+        condition: service_healthy
+    restart: always
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:80"]
+        interval: 30s
+        timeout: 10s
+        retries: 15
+    volumes:
+      - '~/docker/environment:/usr/share/nginx/html/assets/environments'
 
-    compare-it-db :
-      image: mysql:8
-      environment:
-          MYSQL_DATABASE: 'compareIt'
-          MYSQL_USER: 'CITUSR'
-          MYSQL_PASSWORD: 'CITUSR123456'
-          MYSQL_ROOT_PASSWORD: 'rootP@ssw0rd'
-      ports:
-          - '3306:3306'
-          - '33060:33060'
-      restart: always
+  compare-it-back :
+    image: comparit/compare-it-back:master
+    container_name: compare-it-back
+    ports:
+      - '8080'
+    links:
+      - 'compare-it-db'
+    depends_on:
+      compare-it-db:
+                condition: service_healthy
+    environment:
+      CLIENT_URL: http://192.168.99.100:8081
+      DATABASE_PORT: 3306
+      DATABASE_XPORT : 33060
+      DATABASE_HOST: compare-it-db
+      DATABASE_USERNAME: root
+      DATABASE_PASSWORD: rootP@55W0rD
+      DATABASE_NAME: compareIt
+      HIBERNATE_DDL_AUTO: update
+      LOG_LEVEL: WARN
+      DATABASE_LOG_LEVEL: ERROR
+      SENDGRID_API_KEY: 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
+    restart: always
+    healthcheck:
+        test: ["CMD", "curl", "-f", "http://localhost:8080/heartbeat"]
+        interval: 30s
+        timeout: 10s
+        retries: 15
+
+  compare-it-db :
+    image: comparit/compareit-mysql:2
+    container_name: compare-it-db
+    #NE PASCHANGER LES CREDENTIALS BDD POUR LE MOMENT
+    #EN DUR DANS L'IMAGE
+    healthcheck:
+            test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+            timeout: 20s
+            retries: 10
+    ports:
+        - '3306:3306'
+        - '33060:33060'
+    volumes:
+        - 'mysqldb_data:/var/lib/mysql'
+    restart: always
+
+  matomo:
+    image: 'bitnami/matomo:3'
+    container_name: matomo
+    environment:
+      MARIADB_HOST : compare-it-db
+      MARIADB_PORT_NUMBER : 3306
+      MATOMO_DATABASE_NAME : compareIt
+      MATOMO_DATABASE_USER : root
+      MATOMO_DATABASE_PASSWORD : rootP@55W0rD
+      MATOMO_USERNAME : User
+      MATOMO_PASSWORD : P@ssw0rd
+      MATOMO_WEBSITE_NAME  : comparIt
+      MATOMO_WEBSITE_HOST : http://compit.francecentral.cloudapp.azure.com
+    links:
+      - compare-it-db
+    depends_on:
+      - compare-it-db 
+    volumes:
+      - 'matomo_data:/bitnami'
+    restart: always
+volumes:
+  matomo_data:
+    driver: local
+  mysqldb_data:
+    driver: local

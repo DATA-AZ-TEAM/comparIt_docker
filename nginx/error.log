@@ -1,0 +1,7 @@
+2020/02/09 12:33:41 [notice] 2771#2771: signal process started
+2020/02/09 12:37:31 [emerg] 2909#2909: "location" directive is not allowed here in /etc/nginx/nginx.conf:6
+2020/02/09 12:38:26 [notice] 2911#2911: signal process started
+2020/02/09 12:40:12 [notice] 2914#2914: signal process started
+2020/02/09 12:52:21 [notice] 2935#2935: signal process started
+2020/03/11 13:32:34 [emerg] 1#1: directive "server_name" is not terminated by ";" in /etc/nginx/nginx.conf:11
+2020/03/11 13:38:41 [emerg] 1#1: directive "server_name" is not terminated by ";" in /etc/nginx/nginx.conf:11
