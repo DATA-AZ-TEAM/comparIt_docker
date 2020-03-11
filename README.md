@@ -9,28 +9,24 @@ ces 3 briques sont présentées par un conteneur chapeau Nginx qui s'assure de p
 Tous les flux transitent par NGINX
 
 ###Packages OS requis
+`sudo ./install_dependancies.sh`
+Do you want to continue? [Y/n] Y
 
-* `sudo apt update`
-* `sudo apt install docker.io`
-* `sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
-* `sudo chmod 755 /usr/local/bin/docker-compose`
+Ajouter votre utilisateur au groupe docker
+`sudo vim /etc/group`
 
-activer le service docker sur l'os pour qu'il redémarre automatiquement:
-`sudo systemctl enable docker`
-
-Attention, il est nécessaire que l'utilisateur soit membre du groupe docker pour pouvoir avoir acces aux commandes docker, dans le cas contraire toutes les commandes doivent être préfixées de **sudo**
-
-a partir de maintenant la commande `docker ps` doit produire un résultat.
+redemarrer pour que docker demarre et que vous disposiez des bon droits docker a la reconnexion
+`sudo reboot`
 
 il est necessaire de customiser plsieurs fichiers de configuration pour y declarer les URLS du site web, configurer les comptes de BDD, d'analytics....
-
 liste des fichiers a customiser:
 * docker-compose.yml(configuration des conteneurs necessaires au projet)
 * nginx.conf (configuration du reverse proxy)
 * environment.json (indique au Front les urls des services)
 
-une fois cela fait
-* `docker-compose up -d` 
+Lancement de ComparIT
+`cd comparIt_docker/`
+`docker-compose up -d`
 
 #A ne réaliser qu'en vue d'une configuration HTTPS SSL
 ## Configuration DNS
