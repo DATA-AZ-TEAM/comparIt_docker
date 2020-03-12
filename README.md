@@ -1,4 +1,4 @@
-# Compar it 
+# Compar-it 
 
 ComparIt est un outil de comparaison de produits qui permet d'integrer des modeles de produits non fixés. Il dispose d'Api d'insertion de produits  
 
@@ -38,7 +38,11 @@ ou faire les modifications manuelement dans les fichiers suivants:
 
 Lancement de ComparIT  
 `cd comparIt_docker/`  
-`docker-compose up -d`  
+`docker-compose up -d`
+
+## Envie de charger des produits?
+Utilisez l'Api de Pokemons pour tester avec des données:  
+https://pokemon-type-msn-tp3.herokuapp.com/pokemon-flat/
 
 # A ne réaliser qu'en vue d'une configuration HTTPS SSL
 ## Configuration DNS
