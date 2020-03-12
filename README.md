@@ -40,34 +40,46 @@ ou faire les modifications manuelement dans les fichiers suivants:
 
 * compare-it-back: API SPRINGBOOT
 
-    |  DATABASE_PORT | Le port de connexion mysql8 |
-    |  DATABASE_XPORT | Le port de connexion xdevapi mysql8 dédié a la recupération typée Documents |
-    |  DATABASE_HOST | Le nom du conteneur base de donnée |
-    |  DATABASE_USERNAME | Le compte de connexion a la base |
-    |  DATABASE_PASSWORD | Le mot de passe de connexion a la database |
-    |  DATABASE_NAME | La database name |
-    |  HIBERNATE_DDL_AUTO| Hibernate, mode de création ou mise a jour du modele de donnée au démarrage de l'instance |
-    |  LOG_LEVEL | Configuration du niveau de trace de la JVM |
-    |  DATABASE_LOG_LEVEL | Configuration du niveau de trace de la partie Hibernate persistance SGBD |
-    |  SENDGRID_API_KEY | L'envoi de mail via SENDGRID necessite la configuration d'une apikey |
+| Command | Description |
+| --- | --- |  
+|  DATABASE_PORT | Le port de connexion mysql8 |
+|  DATABASE_XPORT | Le port de connexion xdevapi mysql8 dédié a la recupération typée Documents |
+|  DATABASE_HOST | Le nom du conteneur base de donnée |
+|  DATABASE_USERNAME | Le compte de connexion a la base |
+|  DATABASE_PASSWORD | Le mot de passe de connexion a la database |
+|  DATABASE_NAME | La database name |
+|  HIBERNATE_DDL_AUTO| Hibernate, mode de création ou mise a jour du modele de donnée au démarrage de l'instance |
+|  LOG_LEVEL | Configuration du niveau de trace de la JVM |
+|  DATABASE_LOG_LEVEL | Configuration du niveau de trace de la partie Hibernate persistance SGBD |
+|  SENDGRID_API_KEY | L'envoi de mail via SENDGRID necessite la configuration d'une apikey |
 
  * matomo: Conteneur Analytique (recoit les sollicitations des utilisateurs)
-  
-    |  MARIADB_HOST | Le nom du conteneur base de donnée |
-    |  MARIADB_PORT_NUMBER | Le port de connexion mysql8 |
-    |  MATOMO_DATABASE_NAME | La database name |
-    |  MATOMO_DATABASE_USER | Le compte de connexion a la base |
-    |  MATOMO_DATABASE_PASSWORD | Le mot de passe de connexion a la database |
-    |  MATOMO_USERNAME | Le compte admin matomo |
-    |  MATOMO_PASSWORD | Le mot de passe du compte admin Matomo |
-    |  MATOMO_WEBSITE_NAME  | Le nom du site surveillé par Matomo |
-    |  MATOMO_WEBSITE_HOST | L'url écoutée par matomo |
+
+| Command | Description |
+| --- | --- |
+|  MARIADB_HOST | Le nom du conteneur base de donnée |
+|  MARIADB_PORT_NUMBER | Le port de connexion mysql8 |
+|  MATOMO_DATABASE_NAME | La database name |
+|  MATOMO_DATABASE_USER | Le compte de connexion a la base |
+|  MATOMO_DATABASE_PASSWORD | Le mot de passe de connexion a la database |
+|  MATOMO_USERNAME | Le compte admin matomo |
+|  MATOMO_PASSWORD | Le mot de passe du compte admin Matomo |
+|  MATOMO_WEBSITE_NAME  | Le nom du site surveillé par Matomo |
+|  MATOMO_WEBSITE_HOST | L'url écoutée par matomo |
 
 Lancement de ComparIT  
 `cd comparIt_docker/`  
 `docker-compose up -d`
 
 ## Envie de charger des produits?
+
+Connectez vous a la page: http://myhostname.example.com
+
+| User | Password |
+| --- | --- |  
+|admin@test.fr|test|
+
+Vous pouvez charger les produits via url:   
 Utilisez l'Api de Pokemons pour tester avec des données:  
 https://pokemon-type-msn-tp3.herokuapp.com/pokemon-flat/
 
