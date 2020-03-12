@@ -52,7 +52,7 @@ services:
       HIBERNATE_DDL_AUTO: update
       LOG_LEVEL: WARN
       DATABASE_LOG_LEVEL: ERROR
-      SENDGRID_API_KEY: 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
+      SENDGRID_API_KEY: SENDGRID_API_KEY
     restart: always
     healthcheck:
         test: ["CMD", "curl", "-f", "http://localhost:8080/heartbeat"]
