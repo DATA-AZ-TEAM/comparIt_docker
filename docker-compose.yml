@@ -88,7 +88,7 @@ services:
       MATOMO_USERNAME : User
       MATOMO_PASSWORD : P@ssw0rd
       MATOMO_WEBSITE_NAME  : comparIt
-      MATOMO_WEBSITE_HOST : http://@@SERVER_HOSTNAME@@
+      MATOMO_WEBSITE_HOST : http://SERVER_HOSTNAME
     links:
       - compare-it-db
     depends_on:
