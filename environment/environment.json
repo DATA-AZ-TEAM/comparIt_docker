@@ -2,8 +2,8 @@
   "name": "production",
   "production": true,
   "settings": {
-    "apiUrl": "http://@@@SERVER_HOSTNAME@@@/api",
-    "analyticsUrl": "http://@@@SERVER_HOSTNAME@@@/analytics/",
+    "apiUrl": "http://SERVER_HOSTNAME/api",
+    "analyticsUrl": "http://SERVER_HOSTNAME/analytics/",
     "analyticsId": 1,
     "SiteTitle": "DEMO-it"
   }
