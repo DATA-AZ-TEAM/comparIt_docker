@@ -27,6 +27,11 @@ liste des fichiers a customiser:
 * nginx.conf (configuration du reverse proxy)
 * environment.json (indique au Front les urls des services)
 
+Vous pouvez substituer automatiquement le contenu des fichiers de configuration: 
+
+`sed -i 's/@SERVER_HOSTNAME@/myhostname.example.com/g' docker-compose.yml environment/environment.json environment/environment.json nginx.conf`
+
+ou faire les modifications manuelement dans les fichiers suivants:   
 `vim nginx.conf`  
 `vim docker-compose.yml`  
 `vim environment/environment.json`  
