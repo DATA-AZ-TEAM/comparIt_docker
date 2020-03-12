@@ -1,0 +1,1361 @@
+[
+  {
+    "baseExperience": 64,
+    "height": 7,
+    "name": "Bulbizarre",
+    "weight": 69,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "price": 498,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 142,
+    "height": 10,
+    "name": "Herbizarre",
+    "weight": 130,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "price": 496,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 236,
+    "height": 20,
+    "name": "Florizarre",
+    "weight": 1000,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "price": 494,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 62,
+    "height": 6,
+    "name": "Salamèche",
+    "weight": 85,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "price": 492,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 142,
+    "height": 11,
+    "name": "Reptincel",
+    "weight": 190,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "price": 490,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 240,
+    "height": 17,
+    "name": "Dracaufeu",
+    "weight": 905,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "price": 488,
+    "description": "flying, fire"
+  },
+  {
+    "baseExperience": 63,
+    "height": 5,
+    "name": "Carapuce",
+    "weight": 90,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "price": 486,
+    "description": "water"
+  },
+  {
+    "baseExperience": 142,
+    "height": 10,
+    "name": "Carabaffe",
+    "weight": 225,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "price": 484,
+    "description": "water"
+  },
+  {
+    "baseExperience": 239,
+    "height": 16,
+    "name": "Tortank",
+    "weight": 855,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "price": 482,
+    "description": "water"
+  },
+  {
+    "baseExperience": 39,
+    "height": 3,
+    "name": "Chenipan",
+    "weight": 29,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "price": 480,
+    "description": "bug"
+  },
+  {
+    "baseExperience": 72,
+    "height": 7,
+    "name": "Chrysacier",
+    "weight": 99,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "price": 478,
+    "description": "bug"
+  },
+  {
+    "baseExperience": 178,
+    "height": 11,
+    "name": "Papilusion",
+    "weight": 320,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "price": 476,
+    "description": "flying, bug"
+  },
+  {
+    "baseExperience": 39,
+    "height": 3,
+    "name": "Aspicot",
+    "weight": 32,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "price": 474,
+    "description": "poison, bug"
+  },
+  {
+    "baseExperience": 72,
+    "height": 6,
+    "name": "Coconfort",
+    "weight": 100,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "price": 472,
+    "description": "poison, bug"
+  },
+  {
+    "baseExperience": 178,
+    "height": 10,
+    "name": "Dardargnan",
+    "weight": 295,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "price": 470,
+    "description": "poison, bug"
+  },
+  {
+    "baseExperience": 50,
+    "height": 3,
+    "name": "Roucool",
+    "weight": 18,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "price": 468,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 122,
+    "height": 11,
+    "name": "Roucoups",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "price": 466,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 216,
+    "height": 15,
+    "name": "Roucarnage",
+    "weight": 395,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "price": 464,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 51,
+    "height": 3,
+    "name": "Rattata",
+    "weight": 35,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "price": 462,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 145,
+    "height": 7,
+    "name": "Rattatac",
+    "weight": 185,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "price": 460,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 52,
+    "height": 3,
+    "name": "Piafabec",
+    "weight": 20,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "price": 458,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 155,
+    "height": 12,
+    "name": "Rapasdepic",
+    "weight": 380,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "price": 456,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 58,
+    "height": 20,
+    "name": "Abo",
+    "weight": 69,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "price": 454,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 157,
+    "height": 35,
+    "name": "Arbok",
+    "weight": 650,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+    "price": 452,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 112,
+    "height": 4,
+    "name": "Pikachu",
+    "weight": 60,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "price": 450,
+    "description": "electric"
+  },
+  {
+    "baseExperience": 218,
+    "height": 8,
+    "name": "Raichu",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "price": 448,
+    "description": "electric"
+  },
+  {
+    "baseExperience": 60,
+    "height": 6,
+    "name": "Sabelette",
+    "weight": 120,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "price": 446,
+    "description": "ground"
+  },
+  {
+    "baseExperience": 158,
+    "height": 10,
+    "name": "Sablaireau",
+    "weight": 295,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+    "price": 444,
+    "description": "ground"
+  },
+  {
+    "baseExperience": 55,
+    "height": 4,
+    "name": "Nidoran♀",
+    "weight": 70,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "price": 442,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 128,
+    "height": 8,
+    "name": "Nidorina",
+    "weight": 200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+    "price": 440,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 227,
+    "height": 13,
+    "name": "Nidoqueen",
+    "weight": 600,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "price": 438,
+    "description": "ground, poison"
+  },
+  {
+    "baseExperience": 55,
+    "height": 5,
+    "name": "Nidoran♂",
+    "weight": 90,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "price": 436,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 128,
+    "height": 9,
+    "name": "Nidorino",
+    "weight": 195,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "price": 434,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 227,
+    "height": 14,
+    "name": "Nidoking",
+    "weight": 620,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "price": 432,
+    "description": "ground, poison"
+  },
+  {
+    "baseExperience": 113,
+    "height": 6,
+    "name": "Mélofée",
+    "weight": 75,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "price": 430,
+    "description": "fairy"
+  },
+  {
+    "baseExperience": 217,
+    "height": 13,
+    "name": "Mélodelfe",
+    "weight": 400,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "price": 428,
+    "description": "fairy"
+  },
+  {
+    "baseExperience": 60,
+    "height": 6,
+    "name": "Goupix",
+    "weight": 99,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "price": 426,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 177,
+    "height": 11,
+    "name": "Feunard",
+    "weight": 199,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "price": 424,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 95,
+    "height": 5,
+    "name": "Rondoudou",
+    "weight": 55,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "price": 422,
+    "description": "fairy, normal"
+  },
+  {
+    "baseExperience": 196,
+    "height": 10,
+    "name": "Grodoudou",
+    "weight": 120,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "price": 420,
+    "description": "fairy, normal"
+  },
+  {
+    "baseExperience": 49,
+    "height": 8,
+    "name": "Nosferapti",
+    "weight": 75,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "price": 418,
+    "description": "flying, poison"
+  },
+  {
+    "baseExperience": 159,
+    "height": 16,
+    "name": "Nosferalto",
+    "weight": 550,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "price": 416,
+    "description": "flying, poison"
+  },
+  {
+    "baseExperience": 64,
+    "height": 5,
+    "name": "Mystherbe",
+    "weight": 54,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "price": 414,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 138,
+    "height": 8,
+    "name": "Ortide",
+    "weight": 86,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+    "price": 412,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 221,
+    "height": 12,
+    "name": "Rafflesia",
+    "weight": 186,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+    "price": 410,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 57,
+    "height": 3,
+    "name": "Paras",
+    "weight": 54,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "price": 408,
+    "description": "grass, bug"
+  },
+  {
+    "baseExperience": 142,
+    "height": 10,
+    "name": "Parasect",
+    "weight": 295,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+    "price": 406,
+    "description": "grass, bug"
+  },
+  {
+    "baseExperience": 61,
+    "height": 10,
+    "name": "Mimitoss",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "price": 404,
+    "description": "poison, bug"
+  },
+  {
+    "baseExperience": 158,
+    "height": 15,
+    "name": "Aéromite",
+    "weight": 125,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+    "price": 402,
+    "description": "poison, bug"
+  },
+  {
+    "baseExperience": 53,
+    "height": 2,
+    "name": "Taupiqueur",
+    "weight": 8,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+    "price": 400,
+    "description": "ground"
+  },
+  {
+    "baseExperience": 149,
+    "height": 7,
+    "name": "Triopikeur",
+    "weight": 333,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "price": 398,
+    "description": "ground"
+  },
+  {
+    "baseExperience": 58,
+    "height": 4,
+    "name": "Miaouss",
+    "weight": 42,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "price": 396,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 154,
+    "height": 10,
+    "name": "Persian",
+    "weight": 320,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+    "price": 394,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 64,
+    "height": 8,
+    "name": "Psykokwak",
+    "weight": 196,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "price": 392,
+    "description": "water"
+  },
+  {
+    "baseExperience": 175,
+    "height": 17,
+    "name": "Akwakwak",
+    "weight": 766,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+    "price": 390,
+    "description": "water"
+  },
+  {
+    "baseExperience": 61,
+    "height": 5,
+    "name": "Férosinge",
+    "weight": 280,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "price": 388,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 159,
+    "height": 10,
+    "name": "Colossinge",
+    "weight": 320,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+    "price": 386,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 70,
+    "height": 7,
+    "name": "Caninos",
+    "weight": 190,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "price": 384,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 194,
+    "height": 19,
+    "name": "Arcanin",
+    "weight": 1550,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+    "price": 382,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 60,
+    "height": 6,
+    "name": "Ptitard",
+    "weight": 124,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "price": 380,
+    "description": "water"
+  },
+  {
+    "baseExperience": 135,
+    "height": 10,
+    "name": "Têtarte",
+    "weight": 200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+    "price": 378,
+    "description": "water"
+  },
+  {
+    "baseExperience": 230,
+    "height": 13,
+    "name": "Tartard",
+    "weight": 540,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+    "price": 376,
+    "description": "fighting, water"
+  },
+  {
+    "baseExperience": 62,
+    "height": 9,
+    "name": "Abra",
+    "weight": 195,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "price": 374,
+    "description": "psychic"
+  },
+  {
+    "baseExperience": 140,
+    "height": 13,
+    "name": "Kadabra",
+    "weight": 565,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "price": 372,
+    "description": "psychic"
+  },
+  {
+    "baseExperience": 225,
+    "height": 15,
+    "name": "Alakazam",
+    "weight": 480,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "price": 370,
+    "description": "psychic"
+  },
+  {
+    "baseExperience": 61,
+    "height": 8,
+    "name": "Machoc",
+    "weight": 195,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "price": 368,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 142,
+    "height": 15,
+    "name": "Machopeur",
+    "weight": 705,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+    "price": 366,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 227,
+    "height": 16,
+    "name": "Mackogneur",
+    "weight": 1300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "price": 364,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 60,
+    "height": 7,
+    "name": "Chétiflor",
+    "weight": 40,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+    "price": 362,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 137,
+    "height": 10,
+    "name": "Boustiflor",
+    "weight": 64,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+    "price": 360,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 221,
+    "height": 17,
+    "name": "Empiflor",
+    "weight": 155,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+    "price": 358,
+    "description": "poison, grass"
+  },
+  {
+    "baseExperience": 67,
+    "height": 9,
+    "name": "Tentacool",
+    "weight": 455,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "price": 356,
+    "description": "poison, water"
+  },
+  {
+    "baseExperience": 180,
+    "height": 16,
+    "name": "Tentacruel",
+    "weight": 550,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "price": 354,
+    "description": "poison, water"
+  },
+  {
+    "baseExperience": 60,
+    "height": 4,
+    "name": "Racaillou",
+    "weight": 200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "price": 352,
+    "description": "ground, rock"
+  },
+  {
+    "baseExperience": 137,
+    "height": 10,
+    "name": "Gravalanch",
+    "weight": 1050,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+    "price": 350,
+    "description": "ground, rock"
+  },
+  {
+    "baseExperience": 223,
+    "height": 14,
+    "name": "Grolem",
+    "weight": 3000,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "price": 348,
+    "description": "ground, rock"
+  },
+  {
+    "baseExperience": 82,
+    "height": 10,
+    "name": "Ponyta",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "price": 346,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 175,
+    "height": 17,
+    "name": "Galopa",
+    "weight": 950,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+    "price": 344,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 63,
+    "height": 12,
+    "name": "Ramoloss",
+    "weight": 360,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "price": 342,
+    "description": "psychic, water"
+  },
+  {
+    "baseExperience": 172,
+    "height": 16,
+    "name": "Flagadoss",
+    "weight": 785,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+    "price": 340,
+    "description": "psychic, water"
+  },
+  {
+    "baseExperience": 65,
+    "height": 3,
+    "name": "Magnéti",
+    "weight": 60,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "price": 338,
+    "description": "steel, electric"
+  },
+  {
+    "baseExperience": 163,
+    "height": 10,
+    "name": "Magnéton",
+    "weight": 600,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "price": 336,
+    "description": "steel, electric"
+  },
+  {
+    "baseExperience": 132,
+    "height": 8,
+    "name": "Canarticho",
+    "weight": 150,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "price": 334,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 62,
+    "height": 14,
+    "name": "Doduo",
+    "weight": 392,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+    "price": 332,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 165,
+    "height": 18,
+    "name": "Dodrio",
+    "weight": 852,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+    "price": 330,
+    "description": "flying, normal"
+  },
+  {
+    "baseExperience": 65,
+    "height": 11,
+    "name": "Otaria",
+    "weight": 900,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "price": 328,
+    "description": "water"
+  },
+  {
+    "baseExperience": 166,
+    "height": 17,
+    "name": "Lamantine",
+    "weight": 1200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+    "price": 326,
+    "description": "ice, water"
+  },
+  {
+    "baseExperience": 65,
+    "height": 9,
+    "name": "Tadmorv",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "price": 324,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 175,
+    "height": 12,
+    "name": "Grotadmorv",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+    "price": 322,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 61,
+    "height": 3,
+    "name": "Kokiyas",
+    "weight": 40,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "price": 320,
+    "description": "water"
+  },
+  {
+    "baseExperience": 184,
+    "height": 15,
+    "name": "Crustabri",
+    "weight": 1325,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+    "price": 318,
+    "description": "ice, water"
+  },
+  {
+    "baseExperience": 62,
+    "height": 13,
+    "name": "Fantominus",
+    "weight": 1,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "price": 316,
+    "description": "poison, ghost"
+  },
+  {
+    "baseExperience": 142,
+    "height": 16,
+    "name": "Spectrum",
+    "weight": 1,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "price": 314,
+    "description": "poison, ghost"
+  },
+  {
+    "baseExperience": 225,
+    "height": 15,
+    "name": "Ectoplasma",
+    "weight": 405,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "price": 312,
+    "description": "poison, ghost"
+  },
+  {
+    "baseExperience": 77,
+    "height": 88,
+    "name": "Onix",
+    "weight": 2100,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "price": 310,
+    "description": "ground, rock"
+  },
+  {
+    "baseExperience": 66,
+    "height": 10,
+    "name": "Soporifik",
+    "weight": 324,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "price": 308,
+    "description": "psychic"
+  },
+  {
+    "baseExperience": 169,
+    "height": 16,
+    "name": "Hypnomade",
+    "weight": 756,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+    "price": 306,
+    "description": "psychic"
+  },
+  {
+    "baseExperience": 65,
+    "height": 4,
+    "name": "Krabby",
+    "weight": 65,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+    "price": 304,
+    "description": "water"
+  },
+  {
+    "baseExperience": 166,
+    "height": 13,
+    "name": "Krabboss",
+    "weight": 600,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+    "price": 302,
+    "description": "water"
+  },
+  {
+    "baseExperience": 66,
+    "height": 5,
+    "name": "Voltorbe",
+    "weight": 104,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "price": 300,
+    "description": "electric"
+  },
+  {
+    "baseExperience": 172,
+    "height": 12,
+    "name": "Électrode",
+    "weight": 666,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+    "price": 298,
+    "description": "electric"
+  },
+  {
+    "baseExperience": 65,
+    "height": 4,
+    "name": "Noeunoeuf",
+    "weight": 25,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "price": 296,
+    "description": "psychic, grass"
+  },
+  {
+    "baseExperience": 186,
+    "height": 20,
+    "name": "Noadkoko",
+    "weight": 1200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+    "price": 294,
+    "description": "psychic, grass"
+  },
+  {
+    "baseExperience": 64,
+    "height": 4,
+    "name": "Osselait",
+    "weight": 65,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+    "price": 292,
+    "description": "ground"
+  },
+  {
+    "baseExperience": 149,
+    "height": 10,
+    "name": "Ossatueur",
+    "weight": 450,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+    "price": 290,
+    "description": "ground"
+  },
+  {
+    "baseExperience": 159,
+    "height": 15,
+    "name": "Kicklee",
+    "weight": 498,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+    "price": 288,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 159,
+    "height": 14,
+    "name": "Tygnon",
+    "weight": 502,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+    "price": 286,
+    "description": "fighting"
+  },
+  {
+    "baseExperience": 77,
+    "height": 12,
+    "name": "Excelangue",
+    "weight": 655,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "price": 284,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 68,
+    "height": 6,
+    "name": "Smogo",
+    "weight": 10,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+    "price": 282,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 172,
+    "height": 12,
+    "name": "Smogogo",
+    "weight": 95,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+    "price": 280,
+    "description": "poison"
+  },
+  {
+    "baseExperience": 69,
+    "height": 10,
+    "name": "Rhinocorne",
+    "weight": 1150,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "price": 278,
+    "description": "rock, ground"
+  },
+  {
+    "baseExperience": 170,
+    "height": 19,
+    "name": "Rhinoféros",
+    "weight": 1200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "price": 276,
+    "description": "rock, ground"
+  },
+  {
+    "baseExperience": 395,
+    "height": 11,
+    "name": "Leveinard",
+    "weight": 346,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+    "price": 274,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 87,
+    "height": 10,
+    "name": "Saquedeneu",
+    "weight": 350,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "price": 272,
+    "description": "grass"
+  },
+  {
+    "baseExperience": 172,
+    "height": 22,
+    "name": "Kangourex",
+    "weight": 800,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+    "price": 270,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 59,
+    "height": 4,
+    "name": "Hypotrempe",
+    "weight": 80,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "price": 268,
+    "description": "water"
+  },
+  {
+    "baseExperience": 154,
+    "height": 12,
+    "name": "Hypocéan",
+    "weight": 250,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+    "price": 266,
+    "description": "water"
+  },
+  {
+    "baseExperience": 64,
+    "height": 6,
+    "name": "Poissirène",
+    "weight": 150,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "price": 264,
+    "description": "water"
+  },
+  {
+    "baseExperience": 158,
+    "height": 13,
+    "name": "Poissoroy",
+    "weight": 390,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+    "price": 262,
+    "description": "water"
+  },
+  {
+    "baseExperience": 68,
+    "height": 8,
+    "name": "Stari",
+    "weight": 345,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+    "price": 260,
+    "description": "water"
+  },
+  {
+    "baseExperience": 182,
+    "height": 11,
+    "name": "Staross",
+    "weight": 800,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "price": 258,
+    "description": "psychic, water"
+  },
+  {
+    "baseExperience": 161,
+    "height": 13,
+    "name": "M. Mime",
+    "weight": 545,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "price": 256,
+    "description": "fairy, psychic"
+  },
+  {
+    "baseExperience": 100,
+    "height": 15,
+    "name": "Insécateur",
+    "weight": 560,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "price": 254,
+    "description": "flying, bug"
+  },
+  {
+    "baseExperience": 159,
+    "height": 14,
+    "name": "Lippoutou",
+    "weight": 406,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+    "price": 252,
+    "description": "psychic, ice"
+  },
+  {
+    "baseExperience": 172,
+    "height": 11,
+    "name": "Élektek",
+    "weight": 300,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+    "price": 250,
+    "description": "electric"
+  },
+  {
+    "baseExperience": 173,
+    "height": 13,
+    "name": "Magmar",
+    "weight": 445,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "price": 248,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 175,
+    "height": 15,
+    "name": "Scarabrute",
+    "weight": 550,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+    "price": 246,
+    "description": "bug"
+  },
+  {
+    "baseExperience": 172,
+    "height": 14,
+    "name": "Tauros",
+    "weight": 884,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+    "price": 244,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 40,
+    "height": 9,
+    "name": "Magicarpe",
+    "weight": 100,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "price": 242,
+    "description": "water"
+  },
+  {
+    "baseExperience": 189,
+    "height": 65,
+    "name": "Léviator",
+    "weight": 2350,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+    "price": 240,
+    "description": "flying, water"
+  },
+  {
+    "baseExperience": 187,
+    "height": 25,
+    "name": "Lokhlass",
+    "weight": 2200,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "price": 238,
+    "description": "ice, water"
+  },
+  {
+    "baseExperience": 101,
+    "height": 3,
+    "name": "Métamorph",
+    "weight": 40,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+    "price": 236,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 65,
+    "height": 3,
+    "name": "Évoli",
+    "weight": 65,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "price": 234,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 184,
+    "height": 10,
+    "name": "Aquali",
+    "weight": 290,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "price": 232,
+    "description": "water"
+  },
+  {
+    "baseExperience": 184,
+    "height": 8,
+    "name": "Voltali",
+    "weight": 245,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "price": 230,
+    "description": "electric"
+  },
+  {
+    "baseExperience": 184,
+    "height": 9,
+    "name": "Pyroli",
+    "weight": 250,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+    "price": 228,
+    "description": "fire"
+  },
+  {
+    "baseExperience": 79,
+    "height": 8,
+    "name": "Porygon",
+    "weight": 365,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "price": 226,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 71,
+    "height": 4,
+    "name": "Amonita",
+    "weight": 75,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+    "price": 224,
+    "description": "water, rock"
+  },
+  {
+    "baseExperience": 173,
+    "height": 10,
+    "name": "Amonistar",
+    "weight": 350,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+    "price": 222,
+    "description": "water, rock"
+  },
+  {
+    "baseExperience": 71,
+    "height": 5,
+    "name": "Kabuto",
+    "weight": 115,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "price": 220,
+    "description": "water, rock"
+  },
+  {
+    "baseExperience": 173,
+    "height": 13,
+    "name": "Kabutops",
+    "weight": 405,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+    "price": 218,
+    "description": "water, rock"
+  },
+  {
+    "baseExperience": 180,
+    "height": 18,
+    "name": "Ptéra",
+    "weight": 590,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "price": 216,
+    "description": "flying, rock"
+  },
+  {
+    "baseExperience": 189,
+    "height": 21,
+    "name": "Ronflex",
+    "weight": 4600,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "price": 214,
+    "description": "normal"
+  },
+  {
+    "baseExperience": 261,
+    "height": 17,
+    "name": "Artikodin",
+    "weight": 554,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+    "price": 212,
+    "description": "flying, ice"
+  },
+  {
+    "baseExperience": 261,
+    "height": 16,
+    "name": "Électhor",
+    "weight": 526,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "price": 210,
+    "description": "flying, electric"
+  },
+  {
+    "baseExperience": 261,
+    "height": 20,
+    "name": "Sulfura",
+    "weight": 600,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+    "price": 208,
+    "description": "flying, fire"
+  },
+  {
+    "baseExperience": 60,
+    "height": 18,
+    "name": "Minidraco",
+    "weight": 33,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "price": 206,
+    "description": "dragon"
+  },
+  {
+    "baseExperience": 147,
+    "height": 40,
+    "name": "Draco",
+    "weight": 165,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "price": 204,
+    "description": "dragon"
+  },
+  {
+    "baseExperience": 270,
+    "height": 22,
+    "name": "Dracolosse",
+    "weight": 2100,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "price": 202,
+    "description": "flying, dragon"
+  },
+  {
+    "baseExperience": 306,
+    "height": 20,
+    "name": "Mewtwo",
+    "weight": 1220,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "price": 200,
+    "description": "psychic"
+  },
+  {
+    "baseExperience": 270,
+    "height": 4,
+    "name": "Mew",
+    "weight": 40,
+    "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "price": 198,
+    "description": "psychic"
+  }
+]
